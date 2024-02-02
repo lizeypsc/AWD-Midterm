@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #4C3D3D;
+}
+
+.message {
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    top: 3%;
+}
+
+.flower {
+    position: relative;
+    top: 10%;
+}
+
+.input {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.petal {
+    width: 50px;
+    height: 200px;
+    background-color: #ffcc00;
+    position: absolute;
+    border-radius: 50% 50% 50% 0;
+    transform-origin: 50% 100%;
+    cursor: pointer;
+}
+
+.center-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #8b4513; 
+    border-radius: 50%;
+    position: absolute;
+    top: 100px; 
+    left: -75px; 
+    z-index: 1; 
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 5px solid #ffdc74;
+}
+
+.popup {
+    position: absolute;
+    background-color: #ffdc74;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border: 1px solid #8b4513;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+    top: 50%; 
+    left: 52%; 
+    transform: translate(-50%, -50%);
+}
+
+
